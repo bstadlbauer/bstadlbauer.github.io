@@ -10,7 +10,9 @@
 body,
 html {
   height: 100%;
-  width: 100%;
+  width: 100%; 
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
 }
 
 body {
@@ -18,7 +20,14 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   font-family: "Open Sans", sans-serif;
-  color: #232323
+  color: #232323;
+  background: #f7f7f5;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 main {
@@ -26,11 +35,12 @@ main {
   margin: auto auto;
   max-width: 900px;
   padding: 2em;
-  padding-bottom: 30vh;  
+  padding-bottom: 10vh;  
 }
 
 footer {
-  padding: 2em 2em;
+  padding: 1em 2em;
+  text-align: right;
 }
 
 h1,
@@ -55,24 +65,23 @@ p {
   color: #4E4E4E;
 }
 
-body {
-  background: #f7f7f5;
-}
-
 .link-bar {
   a {
     text-transform: uppercase;
     color: black;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    letter-spacing: 0.7px;
     display: inline-flex; 
     align-items: center;
 
     &:hover {
       text-decoration: underline;
+    }
+
+    span {
+      font-family: sans-serif;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1em;
+      letter-spacing: 0.7px;
     }
   }
 }
@@ -137,6 +146,6 @@ a.inline {
 }
 
 .social-icon {
-  width: 20px; 
-  height: 20px;
+  width: 1em; 
+  height: 1em;
 }

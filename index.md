@@ -15,11 +15,9 @@ description: Bernhard Stadlbauer is a senior data engineer at Pachama based in G
     </p>
   </div>
   <div class="link-bar space-x-md">
-
-{% for link in site.data.socialLinks %}
-<a target="_blank" href="{{link.url}}" class="space-x-sm"><img class="social-icon" src="{{link.iconPath}}"><span>{{link.name}}</span></a>
-{% endfor %}
-
+    {% for link in site.data.socialLinks %}
+    <a target="_blank" href="{{link.url}}" class="space-x-sm"><img class="social-icon" src="{{link.iconPath}}"><span>{{link.name}}</span></a>
+    {% endfor %}
   </div>
 
 </div>
