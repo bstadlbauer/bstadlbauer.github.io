@@ -1,0 +1,132 @@
+---
+---
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  font-family: "Open Sans", sans-serif;
+  color: #232323
+}
+
+main {
+  overflow: auto;
+  margin: auto auto;
+  max-width: 880px;
+  padding: 2em;
+  padding-bottom: 30vh;  
+}
+
+footer {
+  padding: 2em 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #4E4E4E;
+}
+
+body {
+  background: #f7f7f5;
+}
+
+.link-bar {
+  a {
+    text-transform: uppercase;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.7px;
+    display: inline-flex; 
+    align-items: center;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.space-x-xs {
+  > * + * {
+    margin-left: 0.3em;
+  }
+}
+
+.space-x-sm {
+  > * + * {
+    margin-left: 0.6em;
+  }
+}
+
+.space-x-md {
+  > * + * {
+    margin-left: 1.2em;
+  }
+}
+
+.space-x-xl {
+  > * + * {
+    margin-left: 3em;
+  }
+}
+
+.space-y-xs {
+  > * + * {
+    margin-top: 0.3em;
+  }
+}
+
+.space-y-sm {
+  > * + * {
+    margin-top: 0.6em;
+  }
+}
+
+.space-y-md {
+  > * + * {
+    margin-top: 1.2em;
+  }
+}
+
+.space-y-xl {
+  > * + * {
+    margin-top: 3em;
+  }
+}
+
+.social-icon {
+  width: 20px; 
+  height: 20px;
+}
