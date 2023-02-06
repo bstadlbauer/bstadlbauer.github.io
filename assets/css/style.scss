@@ -24,7 +24,7 @@ body {
 main {
   overflow: auto;
   margin: auto auto;
-  max-width: 880px;
+  max-width: 900px;
   padding: 2em;
   padding-bottom: 30vh;  
 }
@@ -74,6 +74,16 @@ body {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+a.inline {
+  color: inherit; 
+  text-decoration-color: forestgreen;
+  transition: color 500ms ease;
+
+  &:hover {
+    color: forestgreen;
   }
 }
 
