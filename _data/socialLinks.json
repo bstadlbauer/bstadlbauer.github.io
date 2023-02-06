@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Github",
+    "url": "https://github.com/bstadlbauer",
+    "iconPath": "assets/icons/github.svg"
+  },
+  {
+    "name": "Stackoverflow",
+    "url": "https://www.linkedin.com/in/bernhard-stadlbauer-353232176/",
+    "iconPath": "assets/icons/stackoverflow.svg"
+  },
+  {
+    "name": "Linkedin",
+    "url": "https://www.linkedin.com/in/bernhard-stadlbauer-353232176/",
+    "iconPath": "assets/icons/linkedin.svg"
+  }
+]

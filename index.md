@@ -7,8 +7,8 @@ title: Bernhard Stadlbauer
 description: Bernhard Stadlbauer is a senior data engineer at Pachama based in Graz, Austria.
 ---
 
-<div class="space-x-xl">
-  <div class="space-x-md">
+<div class="space-y-xl">
+  <div class="space-y-md">
     <h1>Bernhard Stadlbauer</h1>
     <p>
       I am Bernhard. Serial entrepreneur 🚀, python evangelist and
@@ -17,9 +17,12 @@ description: Bernhard Stadlbauer is a senior data engineer at Pachama based in G
       regularily present my work to a bunch of vim-nerds at Linux Tage.
     </p>
   </div>
-  <div class="link-bar space-y-md">
-    <a target="_blank" href="https://github.com/bstadlbauer">Github</a>
-    <a target="_blank" href="https://www.linkedin.com/in/bernhard-stadlbauer-353232176/">Linkedin</a>
-    <a target="_blank" href="mailto:bernhard.stadlbauer@gmail.com">Email</a>
+  <div class="link-bar space-x-md">
+
+{% for link in site.data.socialLinks %}
+<a target="_blank" href="{{link.url}}" class="space-x-sm"><img class="social-icon" src="{{link.iconPath}}"><span>{{link.name}}</span></a>
+{% endfor %}
+
   </div>
+
 </div>

@@ -68,6 +68,8 @@ body {
     font-weight: 600;
     font-size: 1.1rem;
     letter-spacing: 0.7px;
+    display: inline-flex; 
+    align-items: center;
 
     &:hover {
       text-decoration: underline;
@@ -75,20 +77,56 @@ body {
   }
 }
 
+
+.space-x-xs {
+  > * + * {
+    margin-left: 0.3em;
+  }
+}
+
+.space-x-sm {
+  > * + * {
+    margin-left: 0.6em;
+  }
+}
+
 .space-x-md {
   > * + * {
-    margin-top: 1.2em;
+    margin-left: 1.2em;
   }
 }
 
 .space-x-xl {
   > * + * {
-    margin-top: 3em;
+    margin-left: 3em;
+  }
+}
+
+.space-y-xs {
+  > * + * {
+    margin-top: 0.3em;
+  }
+}
+
+.space-y-sm {
+  > * + * {
+    margin-top: 0.6em;
   }
 }
 
 .space-y-md {
   > * + * {
-    margin-left: 1.2em;
+    margin-top: 1.2em;
   }
+}
+
+.space-y-xl {
+  > * + * {
+    margin-top: 3em;
+  }
+}
+
+.social-icon {
+  width: 20px; 
+  height: 20px;
 }
