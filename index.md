@@ -9,12 +9,9 @@ description: Bernhard Stadlbauer is a senior data engineer at Pachama based in G
 
 <div class="space-y-xl">
   <div class="space-y-md">
-    <h1>Bernhard Stadlbauer</h1>
+    <h1>Hi, I'm Bernhard!</h1>
     <p>
-      I am Bernhard. Serial entrepreneur 🚀, python evangelist and
-      semi-professional pizza chef 🍕. I build virtual systems to plant real
-      trees 🌳 at Pachama and real muscles on fake rocks 🧗‍♂️ in Graz, Austria. I
-      regularily present my work to a bunch of vim-nerds at Linux Tage.
+      I build virtual systems to plant real trees 🌳 at Pachama. On and off work I believe in the power of open source software and sharing what I've learned with the community.
     </p>
   </div>
   <div class="link-bar space-x-md">
