@@ -1,6 +1,3 @@
----
----
-
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf");
@@ -30,7 +27,7 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   font-family: "Open Sans", sans-serif;
-  color: #232323;
+  color: hsl(0, 0%, 14%);
   background: #f7f7f5;
 }
 
